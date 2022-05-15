@@ -8,7 +8,6 @@ const axiosClient = axios.create({
       : process.env.REACT_APP_API_BASE_URL,
   headers: {
     'content-type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
   },
   withCredentials: true,
   paramsSerializer: (params) => queryString.stringify(params),

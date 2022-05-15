@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 // set title for component
 function useTitle(title = 'English App', isOverride = false) {

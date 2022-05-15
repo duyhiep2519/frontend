@@ -1,9 +1,6 @@
 import Grid from '@material-ui/core/Grid';
 import brainIcon from 'assets/icons/games/brain.png';
 import correctWordIcon from 'assets/icons/games/correct-word.png';
-import grammarlyIcon from 'assets/icons/games/grammarly.png';
-import jigsawIcon from 'assets/icons/games/jigsaw.png';
-import millionaireIcon from 'assets/icons/games/millionaire.png';
 import wordMatchingIcon from 'assets/icons/games/word-match.png';
 import FeatureBox from 'components/FeatureBox';
 import { ROUTES } from 'constant';

@@ -1,7 +1,6 @@
 import Button from '@material-ui/core/Button';
 import EditIcon from '@material-ui/icons/Edit';
 import CameraIcon from '@material-ui/icons/PhotoCamera';
-import { current } from '@reduxjs/toolkit';
 import InputCustom from 'components/UI/InputCustom';
 import UploadButton from 'components/UI/UploadButton';
 import { DEFAULTS, MAX } from 'constant';

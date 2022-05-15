@@ -3,6 +3,7 @@ import React from 'react';
 import useStyle from './style';
 
 const IPA_CHARS = [
+  // eslint-disable-next-line quotes
   "'",
   'ɪ',
   'iː',
