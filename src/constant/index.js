@@ -20,12 +20,12 @@ export const DEFAULTS = {
   VOICE_SPEED: 1,
   VOICE_VOLUME: 1,
   IMAGE_SRC:
-    'https://res.cloudinary.com/Mynary/image/upload/v1625136714/Mynary/default-image.png',
+    'https://res.cloudinary.com/dynonary/image/upload/v1625136714/dynonary/default-image.png',
 };
 
 export const LINKS = {
-  FB: 'https://fb.com/TuanNguyen250400',
-  WEBSITE: 'https://Mynguyen.com',
+  FB: 'https://fb.com',
+  WEBSITE: 'https://fb.com',
 };
 
 export const MAX = {
