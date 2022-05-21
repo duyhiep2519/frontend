@@ -1,0 +1,50 @@
+.card {
+   display: grid;
+   grid-template-columns: 300px;
+   grid-template-rows: 210px 150px ;
+   grid-template-areas: "image" "text" ;
+   border-radius: 18px;
+   background: white;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+   font-family: roboto;
+   text-align: center;
+   transition: 0.5s ease;
+   cursor: pointer;
+   margin:30px;
+   background-color: var(--bg-color-main);
+
+   &:hover {
+      transform: scale(1.06);
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+    }
+   .card-image {
+      grid-area: image;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      background-size: cover;
+     
+    }
+    .card-text {
+      grid-area: text;
+      margin: 25px;
+      h2 {
+         margin-top:0px;
+         font-size:24px;
+         color: var(--title-color);
+       }
+      p {
+        color: var(--label-color);
+         font-size:15px;
+         font-weight: 300;
+         margin-top:10px;
+         line-height: 1.1;
+
+       }
+    }
+ }
+
+
+
+
+
+
