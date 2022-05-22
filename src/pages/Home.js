@@ -34,7 +34,7 @@ const FEATURE_LIST = [
   {
     title: 'Từ vựng với Flashcard',
     subTitle:
-      'Flashcard phương pháp học từ vựng nổi tiếng. Nay hoàn toàn miễn phí trên',
+      'Flashcard phương pháp học từ vựng nổi tiếng. Nay hoàn toàn miễn phí',
     imgUrl: flashImg,
     to: ROUTES.FLASHCARD,
   },
@@ -72,7 +72,7 @@ const FEATURE_LIST = [
     title: 'Play Games',
     imgUrl: gameImg,
     subTitle:
-      'Ôn luyện kiến thức hiệu quả và đỡ nhàm chán hơn qua việc chơi game cùng My nhé',
+      'Ôn luyện kiến thức hiệu quả và đỡ nhàm chán hơn qua việc chơi game',
     to: ROUTES.GAMES.HOME,
   },
   {
@@ -85,7 +85,7 @@ const FEATURE_LIST = [
     title: 'Đóng góp',
     imgUrl: contributeImg,
     subTitle:
-      'My rất mong được sự đóng góp của bạn. Bạn có thể thêm từ mới, sửa lỗi sai',
+      'Rất mong được sự đóng góp của bạn. Bạn có thể thêm từ mới, sửa lỗi sai',
     to: ROUTES.CONTRIBUTION,
   },
 ];

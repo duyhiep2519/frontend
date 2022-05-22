@@ -2,12 +2,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   socialBtn: {
-    width: '50%',
+    width: '100%',
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'center',
     padding: '0.8rem 1.2rem',
     margin: '0 0.8rem',
-
     border: 'solid 1px var(--border-color)',
     backgroundColor: 'var(--bg-color-accent)',
     borderRadius: 'var(--border-radius)',
