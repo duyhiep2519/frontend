@@ -5,17 +5,19 @@ import { Link } from 'react-router-dom';
 
 function FeatureCard({ imgUrl, title, subTitle, to }) {
   return (
-    <div className="card">
-      <div
-        className="card-image"
-        style={{
-          backgroundImage: `url(${imgUrl})`,
-        }}></div>
-      <div className="card-text">
-        <h2>{title}</h2>
-        <p>{subTitle}</p>
+    <Link to={to}>
+      <div className="card">
+        <div
+          className="card-image"
+          style={{
+            backgroundImage: `url(${imgUrl})`,
+          }}></div>
+        <div className="card-text">
+          <h2>{title}</h2>
+          <p>{subTitle}</p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

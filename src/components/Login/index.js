@@ -116,7 +116,6 @@ function LoginLocalForm(props) {
       </Button>
 
       <div className="or-option w-100 t-center">HOẶC</div>
-
       {props.children}
     </form>
   );
